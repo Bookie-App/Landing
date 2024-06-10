@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookie</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <link rel="icon" type="image/x-icon" href="img/logofavicon.ico">
+</head>
+<body>
+
+    <div class="bg">
+        <!--header-->
+        <header>
+            <a href="#intro">
+                <img src="img/logo.png" alt="" id="logo">
+            </a>
+            
+            <div class="hamburguer">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#intro" class="active">Introducción</a>
+                    </li>
+                    <li>
+                        <a href="#uso">¿Cómo usar Bookie?</a>
+                    </li>
+                    <li>
+                        <a href="#opiniones">Opiniones</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--intro-->
+        <section id="intro">
+            <div class="set_intro">
+                <div class="bloque_intro">
+                    <div class="bloque_texto_intro">
+                        <h1>Te presentamos <br><span class="diff-color">Bookie</span></h1>
+                        <h2>DALE UNA SEGUNDA VIDA A TUS LIBROS</h2>
+                        <p>¿Tienes libros acumulando polvo en tus estanterías?<br>
+                            En Bookie, creemos que cada libro merece ser leído y disfrutado una y otra vez. <br>
+                            Por ello, nuestra plataforma te permite poner en circulación esos libros que ya has leído, dándoles una nueva oportunidad de ser apreciados por otros lectores. <br>
+                            Al mismo tiempo, podrás disfrutar de una vasta colección de libros sin límites. </p>
+                    </div>
+                    <div class="img_intro">
+                        <img id="img_intro" src="img/phones.png" alt="">
+                    </div>
+                </div>
+                <!--onda-->
+                <div class="waves-container">
+                    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                        <defs>
+                            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                        </defs>
+                        <g class="parallax">
+                            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                        </g>
+                    </svg>
+                </div>
+        
+            </div> 
+            <div class="separador"></div>
+        </section>
+    </div>
+
+
+    <!--uso de Bookie-->
+    <section id="uso">
+        <!--paso 1-->
+        <div class="paso1">
+            <div class="bloque_paso1">
+                <div class="bloque_paso1_texto" style="background-image: url('img/1.png');">
+                    <div class="paso1_texto">
+                        <h3>Navegando entre libros</h3>
+                        <p>Cuando abras la app, podrás explorar una amplia colección de libros en la pantalla principal. 
+                            Usa la barra de búsqueda para encontrar títulos específicos y navega por las categorías recomendadas. 
+                            Desliza hacia abajo para descubrir nuevos títulos y las tendencias de la comunidad.</p>
+                    </div>
+                </div>
+            </div>
+            <img id="phone1" src="img/phone7.png" alt="">
+        </div>
+        <img id="flecha1" src="img/flecha1.png" alt="">
+
+        <!--paso 2-->    
+        <div class="paso2">
+            <img id="phone2" src="img/phone8.png" alt="">
+            <div class="bloque_paso2">
+                <div class="bloque_paso2_texto" style="background-image: url('img/2.png');">
+                    <div class="paso2_texto">
+                        <h3>Elige tu próxima lectura</h3>
+                        <p>Cuando encuentres un libro que te interese, tócalo para ver la pantalla de detalles. 
+                            Aquí podrás leer la sinopsis, ver las calificaciones y reseñas de otros usuarios, y más 
+                            información relevante. En esta pantalla, encontrarás dos botones principales: 
+                            "Intercambiar" y "Añadir a Favoritos". Si deseas intercambiar el libro, pulsa el botón 
+                            "Intercambiar" para iniciar el proceso. Si prefieres guardarlo para más tarde, pulsa el 
+                            botón "Añadir a Favoritos".</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img id="flecha2" src="img/flecha2.png" alt="">
+
+        <!--paso 3-->
+        <div class="paso3">
+            <div class="bloque_paso3">
+                <div class="bloque_paso3_texto" style="background-image: url('img/3.png');">
+                    <div class="paso3_texto">
+                        <h3 id="acuerdo">¡A ponerse de acuerdo!</h3>
+                        <p>Después de pulsar el botón "Intercambiar", se iniciará un chat entre tú y el dueño del libro. 
+                            Utiliza este chat para conversar y acordar los detalles del intercambio, como el lugar y la hora.
+                             Puedes hacer preguntas sobre el libro, negociar términos y llegar a un acuerdo de manera privada y segura. 
+                             Una vez que ambos estén de acuerdo, solo queda concretar el intercambio físicamente.</p>
+                    </div>
+                </div>
+            </div>
+            <img id="phone3" src="img/phone6.png" alt="">
+        </div>
+        
+    </section>
+
+
+    <!--opiniones acerca de Bookie-->
+    <section id="opiniones">
+        <h3 id="_q">¿Qué se dice de Bookie?</h3>
+        <div class="fila1">
+            <img src="img/comentario1.png" alt="">
+            <img src="img/comentario2.png" alt="">
+            <img src="img/comentario3.png" alt="">
+        </div>
+        <div class="fila2">
+            <img src="img/comentario4.png" alt="">
+            <img src="img/comentario5.png" alt="">
+            <img src="img/comentario6.png" alt="">
+        </div>
+    </section>
+    
+
+    <!--footer-->
+    <footer>
+        <a href="#intro">
+            <img src="img/logo.png" alt="" id="logo2">
+        </a>
+        <div class="texto_footer">
+            <h4>
+                ¡Descarga Bookie y comienza a leer ya! 
+            </h4>
+        </div>
+        <div class="google-container">
+            <img id="google" src="img/google_play.png" alt="">
+        </div>
+    </footer>
+
+
+</body>
+</html>
